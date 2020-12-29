@@ -6,6 +6,15 @@ I need to help Unicorn ventures with the decision. They usually invest in B2C st
 
 To achieve this goal, I aims at implementing 2 common traditional Time Series method: Exponential Smoothing and SARIMA. Facebook Prophet is also experimented since I think this is a useful tool for data analysts with limited experience and technical expertise in time series forecasting.
 
+# Key Findings and Rooms for Improvement
+
+- Hourly instances create noises for prediction and model learning, thus it is better to forecast at monthly level and convert back to hourly data afterwards.
+- Monthly commuters of JetRail from 2015 Feb onwards may reach more than 1 MM people, indicating a feasible investment for Unicorn.
+- My prediction accuracy, based on RMSE, is within the top 10% of Analytics Vidhya public leaderboard, although I only used Exponential Smoothing as the final model to predict future traffic. Sometimes, more simple methods may bring better results than complicated approaches.
+- Since there is little information about the cities in which Jet Rail operates and other demographic variables, I could only perform a univariate analysis. Obviously there should be more exgoneous features incorporated into the models, e.g. holidays, total predicted population or growth of other transportation mode.
+
+
+
 # IMPORT BASIC PACKAGES
 
 ```python
