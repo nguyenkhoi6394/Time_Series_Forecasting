@@ -1,21 +1,12 @@
----
-title: "Univariate Time Series Forecasting"
-date: 2018-01-28
-tags: [Time Series Forecasting, Facebook Prophet, Sarima, Exponential Smoothing]
-header:
-image: "/images/perceptron/percept.jpg"
-excerpt: "Time Series Forecasting"
-mathjax: "true"
----
-
-
+# INTRODUCTION
 
 Unicorn startup fund is considering making an investment in a new form of transportation - JetRail. JetRail uses Jet propulsion technology to run rails and move people at a high speed! While JetRail has mastered the technology and they hold the patent for their product, the investment would only make sense, if they can get more than 1 Million monthly users with in next 18 months.
  
 I need to help Unicorn ventures with the decision. They usually invest in B2C start-ups less than 4 years old looking for pre-series A funding. In order to help Unicorn Ventures in their decision, I need to forecast the traffic on JetRail for the next 7 months. 
 
-In this project, I also aims at testing the use of different Time Series method: Exponential Smoothing and SARIMA. Facebook Prophet is also experimented since I think this is a useful tool for data analysts with limited experience and technical expertise in time series forecasting
+To achieve this goal, I aims at implementing 2 common traditional Time Series method: Exponential Smoothing and SARIMA. Facebook Prophet is also experimented since I think this is a useful tool for data analysts with limited experience and technical expertise in time series forecasting.
 
+# IMPORT BASIC PACKAGES
 
 ```python
 import warnings
