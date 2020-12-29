@@ -1,5 +1,7 @@
 # INTRODUCTION
 
+This is a data science competition held by Analytics Vidhya for anyone wanting to predict the future using time series methods.
+
 Unicorn startup fund is considering making an investment in a new form of transportation - JetRail. JetRail uses Jet propulsion technology to run rails and move people at a high speed! While JetRail has mastered the technology and they hold the patent for their product, the investment would only make sense, if they can get more than 1 Million monthly users with in next 18 months.
  
 I need to help Unicorn ventures with the decision. They usually invest in B2C start-ups less than 4 years old looking for pre-series A funding. In order to help Unicorn Ventures in their decision, I need to forecast the traffic on JetRail for the next 7 months. 
@@ -11,7 +13,7 @@ To achieve this goal, I aims at implementing 2 common traditional Time Series me
 - Hourly instances create noises for prediction and model learning, thus it is better to forecast at monthly level and convert back to hourly data afterwards.
 - Monthly commuters of JetRail from 2015 Feb onwards may reach more than 1 MM people, indicating a feasible investment for Unicorn.
 - My prediction accuracy, based on RMSE, is within the top 10% of Analytics Vidhya public leaderboard, although I only used Exponential Smoothing as the final model to predict future traffic. Sometimes, more simple methods may bring better results than complicated approaches.
-- Since there is little information about the cities in which Jet Rail operates and other demographic variables, I could only perform a univariate analysis. Obviously there should be more exgoneous features incorporated into the models, e.g. holidays, total predicted population or growth of other transportation mode.
+- Since there is little information about the cities in which Jet Rail operates and other demographic variables, I could only perform a univariate analysis. Obviously there should be more exgoneous features incorporated into the models, e.g. holidays, total predicted population or growth of other transportation modes.
 
 
 
